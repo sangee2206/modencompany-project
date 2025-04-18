@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    
+    
+}
+.logo{
+    margin-left: px;
+    margin-top: px;
+    height: 120px;
+    margin-right: 120px;
+    padding-bottom: 15px;
+    
+
+}
+header{
+    background: url(https://c4.wallpaperflare.com/wallpaper/378/719/799/skyscraper-building-architecture-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    opacity:0.;
+    
+    
+}
+.container{
+    max-width: 1200px;
+    margin-left: 0%;
+    padding: 2px;
+}
+
+nav{
+    
+    color: black;
+    width: 110%; height: 120px;
+    margin-left: 0px;
+    padding-top: 15px;
+    
+    
+     
+}
+.main-container {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.main-container li{
+    position: relative;
+    
+}
+.main-container a{
+    color: black;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+    
+}
+.sub-container{
+    display: none;
+    list-style: none;
+    position: absolute;
+    
+
+
+}
+.main-container a:hover{
+    color: red;
+    
+
+}
+.main-container li:hover .sub-container{
+    display: block;
+    background-color: white;
+    
+}
+.sub-container li{
+    padding: 10px;
+    width: 10%; 
+}
+
+.back-1{
+    background-image:url(https://www.intelliwavetechnologies.com/wp-content/uploads/construction-background-lighter.jpg?id=5012);
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+    position:absolute;
+    
+    
+}
+.home-head1,.home-head2,.home-head3{
+    color:rgb(46, 46, 46);
+    position:relative;
+    background-color:rgb(255, 241, 244);
+    margin-top:10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px; 
+    width: fit-content;
+    margin-left: 100px;
+    font-weight: bolder;
+   
+
+
+    
+}
+
+.home-cont1,.home-cont2,.home-cont3{
+    color:darkslategray;
+    font-family:arial ;
+    font-display:initial;
+    position:relative;
+    width: 80%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    padding: 2%;
+    margin-bottom: 20%;
+    opacity: 1;
+    font-weight:bold;
+}
+.last{
+    position: absolute;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:start;
+    width: 100%;
+    text-align: center;
+    padding: 4%;
+    font-weight: bold;
+}
+  
